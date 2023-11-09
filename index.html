@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Local Pets</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Local Pets Pet Shop web page" />
+    <meta name="keywords" content="home, PetShop, Adoptions" />
+    <meta name="author" content="Oenghus Walsh" />
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <link rel="stylesheet" href="CSS/styles.css" />
+  </head>
+  <body>
+    <!--HEADER-->
+    <header>
+      <div class="grid3x3">
+        <div class="dog40">
+          <svg>
+            <use xlink:href="images/sprite.svg#dog-40"></use>
+          </svg>
+        </div>
+        <div class="siteName">
+          <h1>Local Pets</h1>
+        </div>
+        <div class="searchBar">
+          <input class="search" type="text" placeholder="Search" />
+        </div>
+        <div class="shoppingCart">
+          <svg class="cart">
+            <use xlink:href="images/sprite.svg#shoppingcart"></use>
+          </svg>
+        </div>
+      </div>
+      <!--Dropdown Navigation menu small screen-->
+      <div class="dropDown">
+        <svg class="navBars">
+          <use xlink:href="images/sprite.svg#dropdown"></use>
+        </svg>
+        <div class="navDrop">
+          <a href="index.html">
+            <div class="navItem">
+              <svg class="icon">
+                <use xlink:href="images/sprite.svg#home-24"></use>
+              </svg>
+              <h2 class="navPage">Home</h2>
+            </div>
+          </a>
+          <a href="about_us.html">
+            <div class="navItem">
+              <svg class="icon">
+                <use xlink:href="images/sprite.svg#question-mark-24"></use>
+              </svg>
+              <h2 class="navPage">About us</h2>
+            </div>
+          </a>
+          <a href="adoptions.html">
+            <div class="navItem">
+              <svg class="icon">
+                <use xlink:href="images/sprite.svg#puppy"></use>
+              </svg>
+              <h2 class="navPage">Adoptions</h2>
+            </div>
+          </a>
+          <a href="why_adopt.html">
+            <div class="navItem">
+              <svg class="icon">
+                <use xlink:href="images/sprite.svg#Why-adoptions"></use>
+              </svg>
+              <h2 class="navPage">Why Adopt</h2>
+            </div>
+          </a>
+          <a href="contact_us.html">
+            <div class="navItem">
+              <svg class="icon">
+                <use xlink:href="images/sprite.svg#phone-24"></use>
+              </svg>
+              <h2 class="navPage">Contact us</h2>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!--Navigation menu-->
+      <div class="navMenu">
+        <a style="background-color: purple" href="index.html">
+          <div class="navItem">
+            <svg class="icon">
+              <use xlink:href="images/sprite.svg#home-24"></use>
+            </svg>
+            <h2 class="navPage">Home</h2>
+          </div>
+        </a>
+        <a href="about_us.html">
+          <div class="navItem">
+            <svg class="icon">
+              <use xlink:href="images/sprite.svg#question-mark-24"></use>
+            </svg>
+            <h2 class="navPage">About us</h2>
+          </div>
+        </a>
+        <a href="adoptions.html">
+          <div class="navItem">
+            <svg class="icon">
+              <use xlink:href="images/sprite.svg#puppy"></use>
+            </svg>
+            <h2 class="navPage">Adoptions</h2>
+          </div>
+        </a>
+        <a href="why_adopt.html">
+          <div class="navItem">
+            <svg class="icon">
+              <use xlink:href="images/sprite.svg#Why-adoptions"></use>
+            </svg>
+            <h2 class="navPage">Why Adopt</h2>
+          </div>
+        </a>
+        <a href="contact_us.html">
+          <div class="navItem">
+            <svg class="icon">
+              <use xlink:href="images/sprite.svg#phone-24"></use>
+            </svg>
+            <h2 class="navPage">Contact us</h2>
+          </div>
+        </a>
+      </div>
+      <h2 class="pageName">Home</h2>
+    </header>
+    <!--Adoption banner-->
+    <section class="adopt">
+      <div id="adopt1">
+        <h3 class="adoptHeading">Pet Adoptions from Local Pets</h3>
+      </div>
+      <div class="adoptImage">
+        <a href="/adoptions.html"
+          ><img
+            src="images/Cute-dog2B.jpg"
+            alt="Picture of a fluffy white dog with its tongue out"
+        /></a>
+      </div>
+      <div class="adoptContent">
+        <h3 id="adopt2" class="adoptHeading">Pet Adoptions from Local Pets</h3>
+        <h3 class="adoptHeading">Happy animals needing happy homes</h3>
+
+        <a href="/adoptions.html" class="searchAdoptButton"
+          >Search Available Pets</a
+        >
+
+        <a href="/contact_us.html" class="searchAdoptButton"
+          >Register interest</a
+        >
+      </div>
+    </section>
+    <!--Grooming services banner-->
+    <section class="grooming">
+      <div id="groom1" class="groomingImage">
+        <a href=""
+          ><img
+            src="images/Dog-grooming1.jpg"
+            alt="Picture of a cute pet animal"
+        /></a>
+      </div>
+      <div class="groomingContent">
+        <h3 class="groomingHeading">Local Pets Grooming services</h3>
+        <h3 class="groomingHeading">25% Discount for all Local Pets members</h3>
+        <a href="/index.html" class="searchAdoptButton">Bookings</a>
+        <a href="/contact_us.html" class="searchAdoptButton">Register</a>
+      </div>
+      <div id="groom2" class="groomingImage">
+        <a href="/index.html"
+          ><img
+            src="images/Dog-grooming1.jpg"
+            alt="Picture of a small white dog getting its har cut"
+        /></a>
+      </div>
+    </section>
+    <!--Product of the week banner-->
+    <section class="product">
+      <div class="productImage">
+        <a href="/index.html"
+          ><img
+            src="images/Catfood1.png"
+            alt="Picture of cat food packet pink with white lettering"
+        /></a>
+      </div>
+      <div class="productContent">
+        <h3 class="productHeading">Product of the week</h3>
+        <h3 class="productHeading">Save up to 50% on all BigPaws products</h3>
+        <a href="/index.html" class="searchAdoptButton">Shop Nows</a>
+      </div>
+    </section>
+    <!--Product cards-->
+    <section>
+      <div class="horizontal">
+        <div class="thumbnails"></div>
+        <div class="slides">
+          <div>
+            <h4 class="specialHeading">Dog bed</h4>
+            <img
+              class="specialImage"
+              src="/images/Petproduct2.png"
+              alt="Picture of a soft fabric mushroom shaped white and yellow dog bed"
+            />
+            <h4 class="specialHeading">$49.99</h4>
+            <button class="specialButton">Add to cart</button>
+          </div>
+          <div>
+            <h4 class="specialHeading">Dog bed</h4>
+            <img
+              class="specialImage"
+              src="/images/Petproduct1.png"
+              alt="Picture of a soft fabric mushroom shaped white and yellow dog bed"
+            />
+            <h4 class="specialHeading">$30.00</h4>
+            <button class="specialButton">Add to cart</button>
+          </div>
+          <div>
+            <h4 class="specialHeading">Dog toy</h4>
+            <img
+              class="specialImage"
+              src="/images/Dogtoy1.png"
+              alt="Picture of a soft fabric mushroom shaped white and yellow dog bed"
+            />
+            <h4 class="specialHeading">$8.45</h4>
+            <button class="specialButton">Add to cart</button>
+          </div>
+          <div>
+            <h4 class="specialHeading">Dog toy</h4>
+            <img
+              class="specialImage"
+              src="/images/Dogtoy2.png"
+              alt="Picture of a soft fabric mushroom shaped white and yellow dog bed"
+            />
+            <h4 class="specialHeading">$6.50</h4>
+            <button class="specialButton">Add to cart</button>
+          </div>
+          <div>
+            <h4 class="specialHeading">Dog toy</h4>
+            <img
+              class="specialImage"
+              src="/images/Petfood1.png"
+              alt="Picture of a soft fabric mushroom shaped white and yellow dog bed"
+            />
+            <h4 class="specialHeading">$4.99</h4>
+            <button class="specialButton">Add to cart</button>
+          </div>
+          <div>
+            <h4 class="specialHeading">Dog toy</h4>
+            <img
+              class="specialImage"
+              src="/images/Petfood2.png"
+              alt="Picture of a soft fabric mushroom shaped white and yellow dog bed"
+            />
+            <h4 class="specialHeading">$3.50</h4>
+            <button class="specialButton">Add to cart</button>
+          </div>
+          <div>
+            <h4 class="specialHeading">Dog toy</h4>
+            <img
+              class="specialImage"
+              src="/images/dogproduct1.png"
+              alt="Picture of a soft fabric mushroom shaped white and yellow dog bed"
+            />
+            <h4 class="specialHeading">$15.75</h4>
+            <button class="specialButton">Add to cart</button>
+          </div>
+          <div>
+            <h4 class="specialHeading">Dog toy</h4>
+            <img
+              class="specialImage"
+              src="/images/dogproduct2.png"
+              alt="Picture of a soft fabric mushroom shaped white and yellow dog bed"
+            />
+            <h4 class="specialHeading">$12.00</h4>
+            <button class="specialButton">Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="specialProducts">
+        <div class="special">
+          <h4>Dog bed</h4>
+          <img
+            class="specialImage"
+            src="/images/Petproduct1.png"
+            alt="Picture of a blue doggy bed"
+          />
+          <h4>$30.00</h4>
+          <button class="specialButton">Add to cart</button>
+        </div>
+        <div class="special">
+          <h4>Dog food</h4>
+          <img
+            class="specialImage"
+            src="/images/Petfood1.png"
+            alt="Picture of dog food products"
+          />
+          <h4>$4.99</h4>
+          <button class="specialButton">Add to cart</button>
+        </div>
+        <div class="special">
+          <h4>Dog toy</h4>
+          <img
+            class="specialImage"
+            src="/images/Dogtoy1.png"
+            alt="Picture of a red bone shaped soft dog toy"
+          />
+          <h4>$8.45</h4>
+          <button class="specialButton">Add to cart</button>
+        </div>
+        <div class="special">
+          <h4>Dog leash</h4>
+          <img
+            class="specialImage"
+            src="/images/dogproduct1.png"
+            alt="Picture of a dog collar and red leash"
+          />
+          <h4>$15.75</h4>
+          <button class="specialButton">Add to cart</button>
+        </div>
+      </div>
+      <div class="specialProducts">
+        <div class="special">
+          <h4>Dog bed</h4>
+          <img
+            class="specialImage"
+            src="/images/Petproduct2.png"
+            alt="Picture of a soft fabric mushroom shaped white and yellow dog bed"
+          />
+          <h4>$49.99</h4>
+          <button class="specialButton">Add to cart</button>
+        </div>
+        <div class="special">
+          <h4>Dog bones</h4>
+          <img
+            class="specialImage"
+            src="/images/Petfood2.png"
+            alt="Picture of a dog food product, a dog with a bone"
+          />
+          <h4>$3.50</h4>
+          <button class="specialButton">Add to cart</button>
+        </div>
+        <div class="special">
+          <h4>Dog toy</h4>
+          <img
+            class="specialImage"
+            src="/images/Dogtoy2.png"
+            alt="Picture of a dog toy, a red ball on a rope"
+          />
+          <h4>$6.50</h4>
+          <button class="specialButton">Add to cart</button>
+        </div>
+        <div class="special">
+          <h4>Dog Collar</h4>
+          <img
+            class="specialImage"
+            src="/images/dogproduct2.png"
+            alt="Picture of a red dog collar"
+          />
+          <h4>$12.00</h4>
+          <button class="specialButton">Add to cart</button>
+        </div>
+      </div>
+    </section>
+    <!--FOOTER-->
+    <!--Footer mobile screen menu-->
+    <section>
+      <footer>
+        <div class="footerNav">
+          <a href="/index.html"
+            ><h4 class="footerNavItem">
+              <svg class="chevronIcon">
+                <use xlink:href="images/sprite.svg#chevron"></use></svg
+              >Home
+            </h4></a
+          >
+          <a href="/about_us.html"
+            ><h4 class="footerNavItem">
+              <svg class="chevronIcon">
+                <use xlink:href="images/sprite.svg#chevron"></use></svg
+              >About us
+            </h4></a
+          >
+          <a href="/adoptions.html"
+            ><h4 class="footerNavItem">
+              <svg class="chevronIcon">
+                <use xlink:href="images/sprite.svg#chevron"></use></svg
+              >Adoptions
+            </h4></a
+          >
+          <a href="/why_adopt.html"
+            ><h4 class="footerNavItem">
+              <svg class="chevronIcon">
+                <use xlink:href="images/sprite.svg#chevron"></use></svg
+              >Why select adoptions
+            </h4></a
+          >
+          <a href="/contact_us.html"
+            ><h4 class="footerNavItem">
+              <svg class="chevronIcon">
+                <use xlink:href="images/sprite.svg#chevron"></use></svg
+              >Contact us
+            </h4></a
+          >
+          <a href="/index.html"
+            ><h4 class="footerNavItem">
+              <svg class="chevronIcon">
+                <use xlink:href="images/sprite.svg#chevron"></use></svg
+              >Services
+            </h4></a
+          >
+          <a href="/index.html"
+            ><h4 class="footerNavItem">
+              <svg class="chevronIcon">
+                <use xlink:href="images/sprite.svg#chevron"></use></svg
+              >Shopping
+            </h4></a
+          >
+        </div>
+        <!--Footer wide screen menus-->
+        <div class="FooterMenu">
+          <div class="FooterMenuGroups">
+            <h4>Local Pets</h4>
+            <ul class="footerMenuList">
+              <li class="listItem"><a href="/index.html">Home</a></li>
+              <li class="listItem"><a href="/about_us.html">About us</a></li>
+              <li class="listItem"><a href="/adoptions.html">Adoptions</a></li>
+              <li class="listItem">
+                <a href="/why_adopt.html">Why select adoptions</a>
+              </li>
+              <li class="listItem">
+                <a href="/contact_us.html">Contact us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="FooterMenuGroups">
+            <h4>Services</h4>
+            <ul class="footerMenuList">
+              <li class="listItem"><a href="/adoptions.html">Adoptions</a></li>
+              <li class="listItem"><a href="/index.html">Grooming</a></li>
+              <li class="listItem"><a href="/index.html">Puppy School</a></li>
+              <li class="listItem"><a href="/index.html">Dog School</a></li>
+              <li class="listItem"><a href="/index.html">Vet Services</a></li>
+            </ul>
+          </div>
+          <div class="FooterMenuGroups">
+            <h4>Shopping</h4>
+            <ul class="footerMenuList">
+              <li class="listItem"><a href="/index.html">Pet Food</a></li>
+              <li class="listItem"><a href="/index.html">Dogs</a></li>
+              <li class="listItem"><a href="/index.html">Cats</a></li>
+              <li class="listItem"><a href="/index.html">Birds</a></li>
+              <li class="listItem"><a href="/index.html">Others</a></li>
+            </ul>
+          </div>
+          <div class="FooterMenuGroups">
+            <h4>Contact us</h4>
+            <ul class="footerMenuList">
+              <li class="listItem"><a href="/contact_us.html">Email</a></li>
+              <li class="listItem"><a href="/contact_us.html">Phone</a></li>
+              <li class="listItem">
+                <a href="/contact_us.html">Shop Locations</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--Footer social media icons-->
+        <div class="socialMedia">
+          <a title="Twitter" href="https://twitter.com/"
+            ><svg class="SocialMediaIcon">
+              <use xlink:href="images/sprite.svg#twitter"></use></svg
+          ></a>
+          <a title="Facebook" href="https://facebook.com/"
+            ><svg class="SocialMediaIcon">
+              <use xlink:href="images/sprite.svg#facebook"></use></svg
+          ></a>
+          <a title="Tiktok" href="https://tiktok.com/"
+            ><svg class="SocialMediaIcon">
+              <use xlink:href="images/sprite.svg#tiktok"></use></svg
+          ></a>
+          <a title="instagram" href="https://instagram.com/"
+            ><svg class="SocialMediaIcon">
+              <use xlink:href="images/sprite.svg#instagram"></use></svg
+          ></a>
+        </div>
+        <h6 class="copyright">&copy; 2022 Local Pets Pet Shop</h6>
+      </footer>
+    </section>
+    <script src="/Javascript/main.js"></script>
+    <script src="/Javascript/horizscroll.js"></script>
+  </body>
+</html>

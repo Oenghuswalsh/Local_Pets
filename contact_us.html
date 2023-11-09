@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Local Pets</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Local Pets Pet Shop web page" />
+    <meta name="keywords" content="PetShop, Adoptions contact" />
+    <meta name="author" content="Oenghus Walsh" />
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="stylesheet" href="CSS/styles.css" />
+  </head>
+  <body>
+    <!--HEADER-->
+    <header>
+      <div class="grid3x3">
+        <div class="dog40">
+          <svg>
+            <use xlink:href="images/sprite.svg#dog-40"></use>
+          </svg>
+        </div>
+        <div class="siteName">
+          <h1>Local Pets</h1>
+        </div>
+        <div class="searchBar">
+          <input class="search" type="text" placeholder="Search" />
+        </div>
+        <div class="shoppingCart">
+          <svg class="cart">
+            <use xlink:href="images/sprite.svg#shoppingcart"></use>
+          </svg>
+        </div>
+      </div>
+      <!--Dropdown Navigation menu small screen-->
+      <div class="dropDown">
+        <svg class="navBars">
+          <use xlink:href="images/sprite.svg#dropdown"></use>
+        </svg>
+        <div class="navDrop">
+          <a href="index.html">
+            <div class="navItem">
+              <svg class="icon">
+                <use xlink:href="images/sprite.svg#home-24"></use>
+              </svg>
+              <h2 class="navPage">Home</h2>
+            </div>
+          </a>
+          <a href="about_us.html">
+            <div class="navItem">
+              <svg class="icon">
+                <use xlink:href="images/sprite.svg#question-mark-24"></use>
+              </svg>
+              <h2 class="navPage">About us</h2>
+            </div>
+          </a>
+          <a href="adoptions.html">
+            <div class="navItem">
+              <svg class="icon">
+                <use xlink:href="images/sprite.svg#puppy"></use>
+              </svg>
+              <h2 class="navPage">Adoptions</h2>
+            </div>
+          </a>
+          <a href="why_adopt.html">
+            <div class="navItem">
+              <svg class="icon">
+                <use xlink:href="images/sprite.svg#Why-adoptions"></use>
+              </svg>
+              <h2 class="navPage">Why Adopt</h2>
+            </div>
+          </a>
+          <a href="contact_us.html">
+            <div class="navItem">
+              <svg class="icon">
+                <use xlink:href="images/sprite.svg#phone-24"></use>
+              </svg>
+              <h2 class="navPage">Contact us</h2>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!--Navigation menu-->
+      <div class="navMenu">
+        <a href="index.html">
+          <div class="navItem">
+            <svg class="icon">
+              <use xlink:href="images/sprite.svg#home-24"></use>
+            </svg>
+            <h2 class="navPage">Home</h2>
+          </div>
+        </a>
+        <a href="about_us.html">
+          <div class="navItem">
+            <svg class="icon">
+              <use xlink:href="images/sprite.svg#question-mark-24"></use>
+            </svg>
+            <h2 class="navPage">About us</h2>
+          </div>
+        </a>
+        <a href="adoptions.html">
+          <div class="navItem">
+            <svg class="icon">
+              <use xlink:href="images/sprite.svg#puppy"></use>
+            </svg>
+            <h2 class="navPage">Adoptions</h2>
+          </div>
+        </a>
+        <a href="why_adopt.html">
+          <div class="navItem">
+            <svg class="icon">
+              <use xlink:href="images/sprite.svg#Why-adoptions"></use>
+            </svg>
+            <h2 class="navPage">Why Adopt</h2>
+          </div>
+        </a>
+        <a style="background-color: purple" href="contact_us.html">
+          <div class="navItem">
+            <svg class="icon">
+              <use xlink:href="images/sprite.svg#phone-24"></use>
+            </svg>
+            <h2 class="navPage">Contact us</h2>
+          </div>
+        </a>
+      </div>
+      <h2 class="pageName">Contact us</h2>
+    </header>
+    <!--Adoptions banner-->
+    <section class="aboutPage">
+      <div class="aboutPageadoptions">
+        <h3 class="aboutPageHeading">Happy animals needing happy homes</h3>
+        <h3 class="aboutPageHeading">Became a Local Pets member today</h3>
+      </div>
+    </section>
+
+    <!--Contact form-->
+    <div class="contactUsForm">
+      <form class="formContact" method="POST">
+        <h2>Contact us</h2>
+        <div class="formGroup">
+          <input class="formControl" type="text" placeholder="Name" autofocus />
+        </div>
+        <div class="formGroup">
+          <input class="formControl" type="text" placeholder="Address" />
+        </div>
+        <div class="formGroup">
+          <input
+            class="formControl"
+            type="text"
+            placeholder="Email address"
+            minlength="5"
+            maxlength="255"
+          />
+        </div>
+        <div class="formGroup">
+          <input class="formControl" type="number" placeholder="Phone" />
+        </div>
+        <div class="checkbox">
+          <input class="inputBox" type="checkbox" id="member" />
+          <label for="member">Become a member</label>
+        </div>
+        <div class="checkbox">
+          <input class="inputBox" type="checkbox" id="adoption" />
+          <label for="adoption">Adoption Enquiry</label>
+        </div>
+        <div class="checkbox">
+          <input class="inputBox" type="checkbox" id="product" />
+          <label for="product">Product Enquiry</label>
+        </div>
+
+        <div class="formGroup">
+          <input
+            class="formControl"
+            type="text"
+            placeholder="Ask a question?"
+            minlength="5"
+            maxlength="255"
+          />
+        </div>
+        <button class="smButton" type="submit">Submit</button>
+        <button class="smButton" type="reset">Clear</button>
+      </form>
+
+      <!-- Contact details. -->
+      <div class="contactDetails">
+        <ul>
+          <li class="contactItem contactHeader">Contact Details</li>
+          <li class="contactItem">
+            <a href="mailto:email@acbsystems.com.au">Email@LocalPets.com.au</a>
+          </li>
+          <li class="contactItem">Phone #### ### ###</li>
+          <li class="contactItem">Local Pets Pet Shop</li>
+          <li class="contactItem">Main Street</li>
+          <li class="contactItem">City</li>
+          <li class="contactItem">State</li>
+        </ul>
+      </div>
+    </div>
+
+    <!--Search buttons-->
+    <div class="petCard">
+      <a href="/adoptions.html" class="aboutPageButton"
+        >Search for available pets</a
+      >
+    </div>
+    <!--Pet cards-->
+    <section class="petCard1">
+      <div class="petCard">
+        <a href="/adoptions.html" class="aboutPageButton">DOGS</a>
+        <div class="pet">
+          <h4 class="petDetail">Dog name</h4>
+          <img
+            class="petImage"
+            src="/images/Thumbnail-dog6.jpg"
+            alt="Picture of a cute pet"
+          />
+          <h4 class="petDetail">Breed</h4>
+          <h4 class="petDetail">Age</h4>
+        </div>
+      </div>
+    </section>
+    <section class="petCard1">
+      <div class="petCard">
+        <a href="/adoptions.html" class="aboutPageButton">CATS</a>
+        <div class="pet">
+          <h4 class="petDetail">Cat name</h4>
+          <img
+            class="petImage"
+            src="/images/Thumbnail-cat6.jpg"
+            alt="Picture of a cute pet"
+          />
+          <h4 class="petDetail">Breed</h4>
+          <h4 class="petDetail">Age</h4>
+        </div>
+      </div>
+    </section>
+
+    <section class="petCard2">
+      <a href="/adoptions.html" class="aboutPageButton">DOGS</a>
+      <div class="specialProducts">
+        <div class="petCard">
+          <div class="pet">
+            <h4 class="petDetail">Dog name</h4>
+            <img
+              class="petImage"
+              src="/images/Thumbnail-dog1.jpg"
+              alt="Picture of a cute pet"
+            />
+            <h4 class="petDetail">Breed</h4>
+            <h4 class="petDetail">Age</h4>
+          </div>
+        </div>
+        <div class="petCard">
+          <div class="pet">
+            <h4 class="petDetail">Dog name</h4>
+            <img
+              class="petImage"
+              src="/images/Thumbnail-dog2.jpg"
+              alt="Picture of a cute pet"
+            />
+            <h4 class="petDetail">Breed</h4>
+            <h4 class="petDetail">Age</h4>
+          </div>
+        </div>
+        <div class="petCard">
+          <div class="pet">
+            <h4 class="petDetail">Dog name</h4>
+            <img
+              class="petImage"
+              src="/images/Thumbnail-dog3.jpg"
+              alt="Picture of a cute pet"
+            />
+            <h4 class="petDetail">Breed</h4>
+            <h4 class="petDetail">Age</h4>
+          </div>
+        </div>
+        <div class="petCard">
+          <div class="pet">
+            <h4 class="petDetail">Dog name</h4>
+            <img
+              class="petImage"
+              src="/images/Thumbnail-dog4.jpg"
+              alt="Picture of a cute pet"
+            />
+            <h4 class="petDetail">Breed</h4>
+            <h4 class="petDetail">Age</h4>
+          </div>
+        </div>
+      </div>
+      <a href="/adoptions.html" class="aboutPageButton">CATS</a>
+      <div class="specialProducts">
+        <div class="petCard">
+          <div class="pet">
+            <h4 class="petDetail">Cat name</h4>
+            <img
+              class="petImage"
+              src="/images/Thumbnail-cat1.jpg"
+              alt="Picture of a cute pet"
+            />
+            <h4 class="petDetail">Breed</h4>
+            <h4 class="petDetail">Age</h4>
+          </div>
+        </div>
+        <div class="petCard">
+          <div class="pet">
+            <h4 class="petDetail">Cat name</h4>
+            <img
+              class="petImage"
+              src="/images/Thumbnail-cat2b.jpg"
+              alt="Picture of a cute pet"
+            />
+            <h4 class="petDetail">Breed</h4>
+            <h4 class="petDetail">Age</h4>
+          </div>
+        </div>
+        <div class="petCard">
+          <div class="pet">
+            <h4 class="petDetail">Cat name</h4>
+            <img
+              class="petImage"
+              src="/images/Thumbnail-cat3.jpg"
+              alt="Picture of a cute pet"
+            />
+            <h4 class="petDetail">Breed</h4>
+            <h4 class="petDetail">Age</h4>
+          </div>
+        </div>
+        <div class="petCard">
+          <div class="pet">
+            <h4 class="petDetail">Cat name</h4>
+            <img
+              class="petImage"
+              src="/images/Thumbnail-cat4.jpg"
+              alt="Picture of a cute pet"
+            />
+            <h4 class="petDetail">Breed</h4>
+            <h4 class="petDetail">Age</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--FOOTER-->
+    <!--Footer mobile screen menu-->
+    <section>
+      <footer>
+        <div class="footerNav">
+          <a href="index.html"
+            ><h4 class="footerNavItem">
+              <svg class="chevronIcon">
+                <use xlink:href="images/sprite.svg#chevron"></use></svg
+              >Home
+            </h4></a
+          >
+          <a href="about_us.html"
+            ><h4 class="footerNavItem">
+              <svg class="chevronIcon">
+                <use xlink:href="images/sprite.svg#chevron"></use></svg
+              >About us
+            </h4></a
+          >
+          <a href="adoptions.html"
+            ><h4 class="footerNavItem">
+              <svg class="chevronIcon">
+                <use xlink:href="images/sprite.svg#chevron"></use></svg
+              >Adoptions
+            </h4></a
+          >
+          <a href="why_adopt.html"
+            ><h4 class="footerNavItem">
+              <svg class="chevronIcon">
+                <use xlink:href="images/sprite.svg#chevron"></use></svg
+              >Why select adoptions
+            </h4></a
+          >
+          <a href="contact_us.html"
+            ><h4 class="footerNavItem">
+              <svg class="chevronIcon">
+                <use xlink:href="images/sprite.svg#chevron"></use></svg
+              >Contact us
+            </h4></a
+          >
+          <a href="index.html"
+            ><h4 class="footerNavItem">
+              <svg class="chevronIcon">
+                <use xlink:href="images/sprite.svg#chevron"></use></svg
+              >Services
+            </h4></a
+          >
+          <a href="index.html"
+            ><h4 class="footerNavItem">
+              <svg class="chevronIcon">
+                <use xlink:href="images/sprite.svg#chevron"></use></svg
+              >Shopping
+            </h4></a
+          >
+        </div>
+        <!--Footer wide screen menus-->
+        <div class="FooterMenu">
+          <div class="FooterMenuGroups">
+            <h4>Local Pets</h4>
+            <ul class="footerMenuList">
+              <li class="listItem"><a href="/index.html">Home</a></li>
+              <li class="listItem"><a href="/about_us.html">About us</a></li>
+              <li class="listItem"><a href="/adoptions.html">Adoptions</a></li>
+              <li class="listItem">
+                <a href="/why_adopt.html">Why select adoptions</a>
+              </li>
+              <li class="listItem">
+                <a href="/contact_us.html">Contact us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="FooterMenuGroups">
+            <h4>Services</h4>
+            <ul class="footerMenuList">
+              <li class="listItem"><a href="/adoptions.html">Adoptions</a></li>
+              <li class="listItem"><a href="/index.html">Grooming</a></li>
+              <li class="listItem"><a href="/index.html">Puppy School</a></li>
+              <li class="listItem"><a href="/index.html">Dog School</a></li>
+              <li class="listItem"><a href="/index.html">Vet Services</a></li>
+            </ul>
+          </div>
+          <div class="FooterMenuGroups">
+            <h4>Shopping</h4>
+            <ul class="footerMenuList">
+              <li class="listItem"><a href="/index.html">Pet Food</a></li>
+              <li class="listItem"><a href="/index.html">Dogs</a></li>
+              <li class="listItem"><a href="/index.html">Cats</a></li>
+              <li class="listItem"><a href="/index.html">Birds</a></li>
+              <li class="listItem"><a href="/index.html">Others</a></li>
+            </ul>
+          </div>
+          <div class="FooterMenuGroups">
+            <h4>Contact us</h4>
+            <ul class="footerMenuList">
+              <li class="listItem"><a href="/contact_us.html">Email</a></li>
+              <li class="listItem"><a href="/contact_us.html">Phone</a></li>
+              <li class="listItem">
+                <a href="/contact_us.html">Shop Locations</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--Footer social media icons-->
+        <div class="socialMedia">
+          <a href="https://twitter.com/"
+            ><svg class="SocialMediaIcon">
+              <use xlink:href="images/sprite.svg#twitter"></use></svg
+          ></a>
+          <a href="https://facebook.com/"
+            ><svg class="SocialMediaIcon">
+              <use xlink:href="images/sprite.svg#facebook"></use></svg
+          ></a>
+          <a href="https://tiktok.com/"
+            ><svg class="SocialMediaIcon">
+              <use xlink:href="images/sprite.svg#tiktok"></use></svg
+          ></a>
+          <a href="https://instagram.com/"
+            ><svg class="SocialMediaIcon">
+              <use xlink:href="images/sprite.svg#instagram"></use></svg
+          ></a>
+        </div>
+        <h6 class="copyright">&copy; 2022 Local Pets Pet Shop</h6>
+      </footer>
+    </section>
+    <script src="/Javascript/main.js"></script>
+  </body>
+</html>
