@@ -806,14 +806,12 @@ h4 {
   width: 90%;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
 }
 .horizScrol {
   display: flex;
   width: 3rem;
   height: 3rem;
   margin: auto 1rem;
-  cursor: pointer;
 }
 .specialProducts {
   display: none;
